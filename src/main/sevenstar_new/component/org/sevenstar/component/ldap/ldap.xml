@@ -1,0 +1,29 @@
+<!-- <ldapparam>
+  <server>134.96.37.87</server>
+  <port>389</port>
+  <dn>uid=tshoot,ou=mat,dc=ctzj,dc=net</dn>
+  <password>12345678</password>
+  <minConn>1</minConn>
+  <maxConn>2</maxConn>
+</ldapparam>-->
+<!-- 
+<ldapparam>
+  <server>134.96.38.157</server>
+  <port>389</port>
+  <dn>uid=TATEST1,ou=PRAC,dc=ctzj,dc=net</dn>
+  <password>12345678</password>
+  <ou>ou=PRAC,dc=ctzj,dc=net</ou>
+  <minConn>1</minConn>
+  <maxConn>2</maxConn>
+</ldapparam>
+-->
+
+<ldapparam>
+  <server>134.96.37.87</server>
+  <port>389</port>
+  <dn>uid=test1,ou=EPRM,dc=ctzj,dc=net</dn>
+  <password>55555555</password>
+  <ou>ou=EPRM,dc=ctzj,dc=net</ou>
+  <minConn>1</minConn>
+  <maxConn>2</maxConn>
+</ldapparam>
