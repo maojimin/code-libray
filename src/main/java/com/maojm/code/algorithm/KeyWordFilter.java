@@ -29,9 +29,9 @@ public class KeyWordFilter {
 	 * @author tom 下午10:04:28 - 2013-8-30
 	 */
 	public static void addKeywords(List<String> keywords) {
-		lock.lock();
-		keysMap.clear();
 		try {
+			lock.lock();
+			keysMap.clear();
 			for (int i = 0; i < keywords.size(); i++) {
 				String key = keywords.get(i).trim();
 				HashMap nowhash = null;

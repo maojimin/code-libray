@@ -28,7 +28,10 @@ public class Programmer extends Employer{
 		}
 		
 	}
-	
-	
+
+	@Override
+	public int hashCode() {
+		return super.hashCode();
+	}
 
 }
